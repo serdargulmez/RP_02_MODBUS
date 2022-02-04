@@ -17,7 +17,7 @@ namespace Test_01
         EasyModbus.ModbusClient modbusClient;
         int syc = 1;
         int glb_1_ex = 0x0;
-        bool keyCont = false;   // test edilecek.
+        bool keyCont = false;   // test edilecek. Tekrar olacak.
 
 
         public Form1()
