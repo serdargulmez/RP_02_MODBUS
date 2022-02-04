@@ -18,6 +18,7 @@ namespace Test_01
         int syc = 1;
         int glb_1_ex = 0x0;
         bool keyCont = false;   // test edilecek. Tekrar olacak.
+        bool adr =  false;
 
 
         public Form1()
