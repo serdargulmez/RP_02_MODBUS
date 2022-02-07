@@ -474,7 +474,6 @@
             this.occs_client_ip.Size = new System.Drawing.Size(100, 20);
             this.occs_client_ip.TabIndex = 75;
             this.occs_client_ip.Text = "127.0.0.1";
-            this.occs_client_ip.KeyDown += new System.Windows.Forms.KeyEventHandler(this.occs_client_ip_KeyDown);
             // 
             // label1
             // 

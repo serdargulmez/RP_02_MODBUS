@@ -44,7 +44,8 @@ namespace Test_01
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            MessageBox.Show("Lütfen Server IP adresini enter tuşuna basarak giriniz.");
+            //MessageBox.Show("Lütfen Server IP adresini enter tuşuna basarak giriniz.");
+            occs_client_ip.Enabled = false;
         }
 
 
@@ -67,18 +68,15 @@ namespace Test_01
             label3.ForeColor = Color.Red;
         }
 
-        private void occs_client_ip_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                modbusClient = new EasyModbus.ModbusClient(occs_client_ip.Text, 502);
-                occs_client_ip.Enabled = false;
-            }
+        //private void occs_client_ip_KeyDown(object sender, KeyEventArgs e)
+        //{
 
-        }
+        //}
 
         private void bt_baglan_Click(object sender, EventArgs e)
         {
+            modbusClient = new EasyModbus.ModbusClient(occs_client_ip.Text, 502);
+
             modbusClient.Connect();
 
             if (modbusClient.Connected == true)
@@ -100,7 +98,7 @@ namespace Test_01
             label4.ForeColor = Color.Red;
             timer1.Enabled = false;
             syc = 1;
-            occs_client_ip.Enabled = true;
+            //occs_client_ip.Enabled = true;
 
 
         }
