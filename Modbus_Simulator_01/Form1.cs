@@ -20,6 +20,7 @@ namespace Test_01
         bool keyCont = false;   // test edilecek. Tekrar olacak.
         bool adr =  false;
         uint de = 15;
+        
 
 
         public Form1()
@@ -110,9 +111,15 @@ namespace Test_01
             if (syc == 11) syc = 1;
             if (modbusClient.Connected == true && syc <= 10)
             {
-                modbusClient.WriteSingleRegister(1, syc);
+                modbusClient.WriteSingleRegister(1,syc);
                 occs_watchdog.Text = Convert.ToString(syc);
                 syc++;
+
+                int[] dd03 = modbusClient.ReadHoldingRegisters(20, 1);
+                textBox1.Text = Convert.ToString(dd03[0]);
+
+                bool[] dd04 = modbusClient.ReadCoils(0, 1);
+                textBox2.Text = Convert.ToString(dd04[0]);
             }
 
             timer1.Enabled = true;
@@ -173,5 +180,6 @@ namespace Test_01
             tx_dedek_id.Text = "0";
 
         }
+
     }
 }

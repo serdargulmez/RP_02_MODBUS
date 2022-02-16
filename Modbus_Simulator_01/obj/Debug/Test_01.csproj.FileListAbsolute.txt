@@ -35,3 +35,4 @@ E:\_00_SEGU\segu00001_Klasorlerim\segu10_Calismalarim\segu13_GITHUB\GH_Repositor
 E:\_00_SEGU\segu00001_Klasorlerim\segu10_Calismalarim\segu13_GITHUB\GH_Repositories\RP_02_MODBUS\Modbus_Simulator_01\obj\Debug\Test_01.csproj.CopyComplete
 E:\_00_SEGU\segu00001_Klasorlerim\segu10_Calismalarim\segu13_GITHUB\GH_Repositories\RP_02_MODBUS\Modbus_Simulator_01\obj\Debug\Test_01.exe
 E:\_00_SEGU\segu00001_Klasorlerim\segu10_Calismalarim\segu13_GITHUB\GH_Repositories\RP_02_MODBUS\Modbus_Simulator_01\obj\Debug\Test_01.pdb
+E:\_00_SEGU\segu00001_Klasorlerim\segu10_Calismalarim\segu13_GITHUB\GH_Repositories\RP_02_MODBUS\Modbus_Simulator_01\obj\Debug\Test_01.csproj.AssemblyReference.cache
