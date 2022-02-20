@@ -1,2 +1,2 @@
 # RP_02_MODBUS
-MODBUS protokolü simulasyon programıdır.
+This is a MODBUS protocol simulator program. 
