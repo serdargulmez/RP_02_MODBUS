@@ -458,7 +458,7 @@
             this.occs_client_port.Enabled = false;
             this.occs_client_port.Location = new System.Drawing.Point(716, 28);
             this.occs_client_port.Name = "occs_client_port";
-            this.occs_client_port.Size = new System.Drawing.Size(31, 20);
+            this.occs_client_port.Size = new System.Drawing.Size(41, 20);
             this.occs_client_port.TabIndex = 77;
             this.occs_client_port.Text = "502";
             // 
