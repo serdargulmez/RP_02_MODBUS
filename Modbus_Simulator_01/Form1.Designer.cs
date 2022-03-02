@@ -506,9 +506,9 @@
             this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(655, 300);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 16);
+            this.label5.Size = new System.Drawing.Size(148, 16);
             this.label5.TabIndex = 97;
-            this.label5.Text = "Copyright © 2020 by SEGU ";
+            this.label5.Text = "Copypaste © 2020 by SEGU ";
             // 
             // timer1
             // 
